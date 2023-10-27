@@ -1,0 +1,35 @@
+.carouselProd .carousel-inner .carousel-item img {
+    width: auto;
+    height: 450px;
+}
+.ttlCarouselInic {
+    backdrop-filter: blur(7px);
+    background: rgba(255, 255, 255, 0.29);
+    border: 3px solid #fafafa14;
+    border-radius: 1rem;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    padding: 10px; 
+    color: black;
+}
+
+.ttlCarouselInic h5 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; 
+    font-size: 28px; 
+}
+
+.txtNoved{
+    height: 55px;
+    width: 100%;
+    align-items: center;
+    color: #000000;
+    position: relative;
+    text-align: center;
+    border-top: 3px solid #ae09b1;
+    border-bottom: 3px solid #ae09b1;
+    background: #b807bba4(13, 12, 12, 0.166); 
+    backdrop-filter: blur(7px); 
+  }
+
+

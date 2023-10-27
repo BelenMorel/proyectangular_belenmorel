@@ -1,0 +1,23 @@
+
+.txtNoved{
+    align-items: center;
+    color: #000000;
+    border-top: 3px solid #91059e75;
+    border-bottom: 3px solid #91059e75;
+    background: rgba(13, 12, 12, 0.166); 
+    backdrop-filter: blur(7px);
+  }
+  
+  .card{
+    border: 3px solid #9b0389;
+    
+  }
+  
+  
+  
+  .custom-card-img {
+    width: 350px;
+    height: 350px;
+    object-fit: cover; 
+    align-items: center;
+}

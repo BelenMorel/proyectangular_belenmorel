@@ -1,0 +1,21 @@
+<section class="cardsNov">
+
+    <div class="txtNoved d-flex align-items-center justify-content-center ">
+        <h2>Novedades</h2>
+    </div> 
+  
+     <br>
+    <div class="container-fluid row mb-4 mt-3 col-12 col-md-4 col-lg-4 col-xl-4 d-flex align-items-center justify-content-center"
+     *ngFor="let unaNovedad of listaNovedades">
+        <div class="card m-3 shadow h-100" style="width: 25rem;">
+            <img [src]="urlImagen" alt="...">
+            <div class="card-body text-center d-flex flex-column align-items-center">
+                <h5 class="card-title">{{unaNovedad.titulo}}</h5>
+                <p class="card-text">{{unaNovedad.texto}}</p>
+                <p class="card-text precio">Precio: {{unaNovedad.precio}}</p>
+                <a routerLink="/" class="btn btn-primary w-100">{{unaNovedad.boton}}</a>
+            </div>
+        </div>
+    </div>            
+      
+  </section>

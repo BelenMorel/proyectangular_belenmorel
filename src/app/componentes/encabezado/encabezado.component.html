@@ -1,0 +1,46 @@
+
+<header>
+    <div class="container-fluid mt-1">
+      <div class="row">
+        <nav class="navbar navbar-expand-sm bg-body-tertiary">
+            <a class="navbar-brand" routerLink="/">
+              <h1 title="MascotaShop">{{titulo}}</h1>
+            </a>
+        </nav>
+      </div>
+      <div class="row">
+        <nav class="navbar navbar-expand-sm" style="background-color: #600285; color: rgb(255, 255, 255);">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="fas fa-bars text-white"></i>
+            <span class="ml-3 text-white" title="Menú">Menú</span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" routerLink="inicio" title="Inicio">Inicio</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" routerLink="#" id="navbarDropdownMenuLink1" role="button" data-bs-toggle="dropdown" aria-expanded="false" title="Productos Perros">
+                  Productos Perros
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink1">
+                  <li><a class="dropdown-item" routerLink="/alimentos-perros" title="Alimentos para perros">Alimentos</a></li>
+                  <li><a class="dropdown-item" routerLink="/juguetes-perros" title="Juguetes para perros">Juguetes</a></li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" routerLink="#" id="navbarDropdownMenuLink2" role="button" data-bs-toggle="dropdown" aria-expanded="false" title="Productos Gatos">
+                  Productos Gatos
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink2">
+                  <li><a class="dropdown-item" routerLink="/alimentos-gatos" title="Alimentos para gatos">Alimentos</a></li>
+                  <li><a class="dropdown-item" routerLink="formcompra" title="Juguetes para gatos">Compra</a></li>
+                </ul>
+              </li>
+           </ul>
+          </div>
+        </nav>
+      </div>
+    </div>
+</header>
+  

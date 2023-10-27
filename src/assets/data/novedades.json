@@ -1,0 +1,37 @@
+{
+  "titulo": "web de novedades", 
+
+    "Novedades": [
+
+{
+ "titulo": "WHISKAS",
+ "texto": "Para gato adulto sabor mix de carnes en bolsa (10KG)",
+ "precio":"$15.000",
+ "urlImagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRIojY_yklI-eaF0lA3jTtcQ1WaQz9v81wEozwjfQcTjQ&s",
+  "boton": "Comprar"
+ 
+
+},
+
+{
+    "titulo": "Alimento Küme Holístico",
+    "texto": "Para perro todos los tamaños sabor mix. (15kg)",
+    "precio":"$30.000",
+    "urlImagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSmwBXyM2W5Q9FTQ_LBxQuY-iDzdf8jv-d9343iW8aH&s",
+     "boton": "Comprar"
+    
+   
+   },
+   
+{
+    "titulo": "Alimento Maintenance Criadores",
+    "texto": "Para perro adulto todos los tamaños sabor carne (22 kg)",
+    "precio":"$12.000",
+    "urlImagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR2PXA4B45vKSqmUr9NNjqp5fENMj2_8hsWms3sam42&s",
+     "boton": "Comprar"
+    
+   
+   }
+
+]
+}
